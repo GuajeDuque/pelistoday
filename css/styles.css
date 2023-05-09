@@ -1,0 +1,233 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    
+    display:flex;
+    background-color: brown;
+    flex-direction: row;
+    justify-content: center;/* todos los eleenteos centrados */
+    align-items: center;/*centra letras */
+    padding: 15px;
+    position: fixed;/* me siga la cabeza */
+    top: 0;/* siempre arriba  */
+    left:0;/* siempre izquierda */
+    width: 100%;/* cubre toda la pantalla */
+    text-decoration: none;
+
+    
+    
+}
+header img{
+    width: 70px;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+header ul li{
+    padding: 0px 12px;
+    text-decoration: none;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+#productosPrimarios{
+
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;/* uno abajo del otro */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+}
+.contenedor-noticias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card1{
+    width: 400px;
+    height: 500px;
+    margin: 12px;
+    background-color: brown;
+    border-radius: 4px;
+    align-items: center;
+    text-decoration: none;
+   
+}
+.card1 img{
+    width: 400px;
+    height: 225px;
+}
+.card1 h2{
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.card1 h3{
+
+    text-align: center;
+    font-weight: 100;
+   
+}
+.card1 a{
+    text-align: center;
+    color: white;
+    background-color: gray;
+    border-radius: 50px;
+    font-size:20px;
+    padding: 14px 26 px;
+    text-decoration: none;
+
+}
+.card2{
+    width: 400px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 4px;
+    margin: 12px;
+   
+    
+}
+.card2 img{
+    width: 400px;
+}
+.card2 h2{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card2 h3{
+
+    text-align: center;
+    font-weight: 100;
+   
+}
+.card2 a{
+    
+    color: white;
+    background-color: gray;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 26 px 14px 15px;
+    text-decoration: none;
+
+}
+.card3{
+    width: 400px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 4px;
+    margin: 12px;
+    
+}
+.card3 img{
+    width: 400px;
+}
+.card3 h2{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card3 h3{
+
+    text-align: center;
+    font-weight: 100;
+   
+}
+.card3 a{
+    color: white;
+    background-color: gray;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 26 px;
+    text-decoration: none;
+
+}
+
+.caja{ 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 35px ;
+    border: 2px solid #5878ca;}
+
+footer{
+    
+    background-color: brown;
+    
+    padding: 12px 18px;
+    display: flex; /*se llama al flex*/
+    flex-direction: row; /*direccion del flex*/
+    justify-content:space-between;
+    color:white;
+    
+}
+
+
+#noticias{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;/* uno abajo del otro */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+}
+.cuadro-a{
+    background-color: brown;
+    padding: 12px 18px;
+    display: flex; /*se llama al flex*/
+    flex-direction: row; /*direccion del flex*/
+    align-items: center;
+    
+}
+
+#comunicate{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.cuadrocomunicate1{
+    background-color: brown;
+    padding: 12px 18px;
+    display: flex; /*se llama al flex*/
+    flex-direction: row; /*direccion del flex*/
+    align-items: center;
+}
+
+.cuadrocomunicate2{
+    background-color: brown;
+    padding: 12px 18px;
+    display: flex; /*se llama al flex*/
+    flex-direction: row; /*direccion del flex*/
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
