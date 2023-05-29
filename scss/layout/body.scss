@@ -1,0 +1,30 @@
+* {
+	font-family: $font-family_1;
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	padding-bottom: 12px 18px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.hero {
+	background-image: url("../imagenes/fondo_principal.jpg");
+	height: 60vh;
+}
+
+
+.cuadrado2{
+    background-color: #9b140b;
+    color: white;
+    padding: 1em 0;
+    justify-content: space-between;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;}

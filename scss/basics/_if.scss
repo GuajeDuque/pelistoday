@@ -1,0 +1,7 @@
+//creación del if- se prueba cambiando el valor del color de $background-color_1
+@if $background-color_1 == #9b140b{
+	$color_1: white;
+}
+@else {
+    $color_1:black;
+} 

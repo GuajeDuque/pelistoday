@@ -1,0 +1,7 @@
+//responsive de celular- creación del mixin- aplicado en noticias
+@mixin mediaquery-mobile(){
+	@media (max-width: 576px) {
+		@content;
+}
+}
+

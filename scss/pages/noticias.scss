@@ -1,0 +1,32 @@
+// implementacion del mixin
+article {
+	width: 100%;
+	color: $color_3;
+	background-color: $background-color_2;
+	grid-area: contenedor;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 100px 500px;
+	grid-template-areas: "columna columna columna columna" "columnaizq columnaizq columnader columnader";
+	@include mediaquery-mobile(){
+	display: grid;
+	grid-template-rows: 100px 300px;
+	grid-template-areas: "columna columna columna columna" "columnaizq columnaizq columnaizq columnaizq" "columnader columnader columnader columnader";
+	}
+	}
+#columna {
+	width: 100%;
+	grid-area: columna;
+	text-align: center;
+}
+#columnaizq {
+	width: 100%;
+	grid-area: columnaizq;
+}
+#columnader {
+	width: 100%;
+	grid-area: columnader;
+}
+
+
+
