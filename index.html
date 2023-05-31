@@ -90,7 +90,7 @@
       <div class="row my-3">
         <div class="col-12 col-md-4">
           <div class="card h-100 align-items-center">
-          <img src="./imagenes/peli_princial.jpg" class="card-img-top" alt="Seccion Peliculas">
+          <img src="./imagenes/peli_princial.jpg" class="card-img-top" alt="Seccion Peliculas"data-aos="flip-down">
           <div class="card-body">
             <h5 class="card-title">Seccion Peliculas</h5>
             <p class="card-text">Encuentra las peliculas del momento aqui</p>
@@ -99,7 +99,7 @@
         </div></div>
         <div class="col-12 col-md-4">
           <div class="card h-100 align-items-center" >
-          <img src="./imagenes/seies_principal.jpg " class="card-img-top rounded" alt="Seccion Series">
+          <img src="./imagenes/seies_principal.jpg " class="card-img-top rounded" alt="Seccion Series" data-aos="flip-down">
           <div class="card-body">
             <h5 class="card-title">Seccion Series</h5>
             <p class="card-text">Encuentra las Series del momento aqui</p>
@@ -108,7 +108,7 @@
         </div>
         <div class="col-12 col-md-4">
           <div class="card h-100 align-items-center">
-          <img src="./imagenes/noti_imagen.jpg" class="card-img-top rounded" alt="Seccion Noticias">
+          <img src="./imagenes/noti_imagen.jpg" class="card-img-top rounded" alt="Seccion Noticias" data-aos="flip-down">
           <div class="card-body">
             <h5 class="card-title">Seccion Noticias</h5>
             <p class="card-text">Encuentra las Noticias del momento aqui</p>
@@ -119,13 +119,17 @@
       </div>
     </section>
     
-    <section class="hero d-flex flex-column justify-content-center align-items-center">
+    <section class="hero d-flex flex-column justify-content-center align-items-center" data-aos="flip-down">
       <h2 class="text-white opacity-50" hredf>Comunicate con nosotros</h2>
             <a href="./paginas/contactos.html"><button type="button" class="button-grey">Contáctanos</button></a>
     </section>
 
-    <div class="cuadrado2" data-aos="flip-down">
-<p>SUSCRÍBETE A NUESTRO NEWSLETTER PARA RECIBIR NOTICIAS ACTUALES</p> 
+    <div class="cuadrado2">
+    <p>SUSCRÍBETE A NUESTRO NEWSLETTER PARA RECIBIR NOTICIAS ACTUALES 
+    <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" id="email" name="email" required="">
+    <button type="submit">Enviar</button>
+    </p>
     </div>
     </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
