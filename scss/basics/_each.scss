@@ -1,8 +1,8 @@
 //botones- creación del each- aplicado en index contactos
 
-$colorbotonprimario: IndianRed;
+$colorbotonprimario: black;
 $colorbotonsecundario: grey;
-$colorbotonterciario: DarkSalmon;
+$colorbotonterciario: salmon;
 
 @each $botones in $colorbotonprimario, $colorbotonsecundario, $colorbotonterciario{
 	.button-#{$botones}{
