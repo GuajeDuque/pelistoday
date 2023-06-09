@@ -79,10 +79,10 @@ body {
   background-color: #171717;
   color: white;
   padding: 1em 0;
-  justify-content: space-around;
   margin-top: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   bottom: 0;
   width: 100%;
 }

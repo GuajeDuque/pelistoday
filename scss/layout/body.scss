@@ -19,10 +19,11 @@ body {
     background-color: $background-color_3;
     color: $color_1;
     padding: 1em 0;
-    justify-content: space-around ;
+	
     margin-top: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+	align-items: center;
     bottom: 0;
     width: 100%;
 }
